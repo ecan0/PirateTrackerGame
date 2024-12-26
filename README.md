@@ -1,16 +1,32 @@
-#Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
+# PirateTrackerGame
 
-In this project, I created an intelligent agent using Keras to pathfind through a maze in a treasure hunt game. Provided for me was two Python classes, TreasureMaze.py and GameExperience.py to store the maze object and episodes respectively. The agent, in our game the "pirate" player, explores the maze for hidden treasure using exploration and exploitation within a deep Q-learning algorithm that solves the maze with a trained model.
+A simple project where an agent (pirate) learns to navigate a maze to reach a treasure using a deep Q-learning approach using Tensorflow and Keras.
 
-#What do computer scientists do and why does it matter?
+## Project Overview
+- Uses a maze matrix to represent the environment.
+- Employs a neural network to approximate Q-values.
+- Relies on experience replay to train the agent.
+- Demonstrates the exploration-exploitation tradeoff.
 
-Within the field of computer science, leaders in this industry are responsible for using computational knowledge and provided hardware to solve real-world problems. Theoretical CS knowledge such as the implementations of mathematics, algorithms, computer architecture, and more makes up a large part of the code and programming knowledge to make these interactions between machine and human possible and enhance the level of understanding we have of technology. 
+## Setup
+1. Install required packages (e.g., NumPy, Matplotlib, Keras).
+2. Open the notebook in VS Code or any Jupyter-based environment.
+3. Run all cells to train the model and evaluate performance.
 
-#How do I approach a problem as a computer scientist?
+## Files
+- CANDELA_ERIC_PROJECTTWO.IPYNB: Main notebook containing code and training flow.
+- TreasureMaze.py: Environment logic for maze navigation.
+- GameExperience.py: Records agent experiences for replay.
 
-Approaching a problem as a computer scientist involves collaboration, research, and engineering to design new algorithms, data structures, and infrastructures to cater to users' needs. For example, in my profession as a software engineer, I've been responsible for fielding requirements and implementing design patterns to build communication networks for worldwide endpoints. This approach to problem solving requires a deep understanding of programming, networking, applied mathematics, and IT principes to make cross-functional teams and applications operate 24/7.
+## Usage
+1. Adjust hyperparameters in the notebook if needed (e.g., epochs, batch size).
+2. Run the training cells to construct and train the model.
+3. Use completion checks and the play_game function to validate performance.
 
+## Contributing
+- Fork or clone the repository.
+- Make changes and test thoroughly.
+- Submit pull requests or open issues for enhancements.
 
-#What are my ethical responsibilities to the end user and the organization?
-
-My ethical responsibilities include delivering reliable, secure, and quality code to the end user. To accomplish this, I ensure that myself and other developers adhere to policy guidelines and regulations to protect user data such as the GDPR and provide transparency to end-users about what their data is doing at any given point in time. Furthermore, developing an AI algorithm for example requires me to avoid implementing hidden biases or dangerous content in generated output. These standards we hold ourselves to as engineers is crucial for maintaining societal trust in platforms that make up the world at large, and provide accountability to ourselves and others to make technology a safe space for everyone.
+## License
+This project is provided for educational purposes. Refer to the repository’s license for more information.
